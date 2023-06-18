@@ -3,10 +3,10 @@ const HeroSection = () => {
   return (
     <div className="max-w-[1240px] mx-auto py-6 bg-[#e3ebd2]">
       <div className="grid grid-rows-2 grid-cols-4 gap-10">
-        <h2 className="col-span-3  text-6xl">Build Vision</h2>
+        <h2 className="col-span-3  text-6xl uppercase">Build Vision</h2>
         <div className="flex justify-between items-center">
-          <button className="text-xl border-2 border-black py-2 px-4 rounded-full text-center">
-            Discuss project
+          <button className="text-xl border-2 border-black py-2 px-4 rounded-full text-center uppercase">
+            Discuss the project
           </button>
         </div>
 
@@ -14,7 +14,7 @@ const HeroSection = () => {
           We specialize in designing and constructing modern houses quickly and
           affordably, without compromising on quality.
         </p>
-        <h1 className="col-span-3 font-bold text-7xl text-right ">
+        <h1 className="col-span-3 font-bold text-7xl text-right uppercase ">
           We Build Your Vision
         </h1>
       </div>
